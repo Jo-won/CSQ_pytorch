@@ -36,7 +36,7 @@ Please move ```trainlist01_ilp.txt``` and ```testlist01_ilp.txt``` inside ```ucf
 ```
 <br/><br/><br/><br/>
 
-
+## Usage
 - **Train & Vaild**  
 Please set the ```model_root``` folder to be saved at ```opt.py```,  
 set the ```data_root``` in the ```train_ucf101_base.sh``` file,  
@@ -54,3 +54,8 @@ When CSQ 64bits,
 |        UCF101        |      0.874     |       **0.934**       |
 
 ![image](https://user-images.githubusercontent.com/46413594/115952832-47aeab80-a523-11eb-997f-03927a4aec7b.png)
+<br/><br/><br/><br/>
+
+## Reference
+- CSQ official code : https://github.com/yuanli2333/Hadamard-Matrix-for-hashing
+- MFNet official code : https://github.com/cypw/PyTorch-MFNet
