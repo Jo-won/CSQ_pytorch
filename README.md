@@ -38,7 +38,9 @@ Please move ```trainlist01_ilp.txt``` and ```testlist01_ilp.txt``` inside ```ucf
 
 
 - **Train & Vaild**  
-Please set the ```model_root``` folder to be saved at ```opt.py```, set the ```data_root``` in the ```train_ucf101_base.sh``` file, and then use the command below.  
+Please set the ```model_root``` folder to be saved at ```opt.py```,  
+set the ```data_root``` in the ```train_ucf101_base.sh``` file,  
+and then use the command below.  
 Validation proceeds with the same videos as the test.
 ```
 bash train_ucf101_base.sh
