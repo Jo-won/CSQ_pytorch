@@ -1,6 +1,7 @@
 # CSQ_pytorch
 
-This repository is re-implementation of CSQ(Central Similarity Quantization) with MFNet(Multi-Fiber Net)
+This repository is re-implementation of CSQ(Central Similarity Quantization) with MFNet(Multi-Fiber Net)  
+CSQ is a methodology for video retrieval, and in this repository, we use the UCF101 dataset to conduct video retrieval.
 <br/><br/><br/><br/>
 ## Installation
 
