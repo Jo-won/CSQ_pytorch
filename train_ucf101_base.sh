@@ -1,0 +1,14 @@
+OMP_NUM_THREADS=1 python lab.py \
+    --model_dir ucf101_csq_64bit_base_git \
+    --project_name ucf101_csq_64bit_base_git \
+    --train \
+    --data_root DATA_ROOT \
+    --gpus 1 \
+    --dataset UCF101 \
+    --workers 32 \
+    --batch_size 32 \
+    --clip_length 16 \
+    --finetune \
+    --hash_bit 64 \
+    --lr_scheduler multi_step \
+    --wandb
